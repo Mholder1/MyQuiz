@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: "Merriweather", serif;
+
+  --ff-color: rgba(172, 165, 165, 0.692);
+}
+
+body {
+  justify-content: center;
+  font-family: var(--ff-primary);
+  background-color: beige;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+.quiz-content {
+  font-family: var(--ff-primary);
+  background-color: var(--ff-color);
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(17, 11, 11, 0.692);
+}
+
+.quiz-header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0em 1em 1em;
+}
+
+ul li {
+  margin: 1em;
+  font-size: 1.2rem;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(77, 112, 219);
+  display: block;
+  width: 100%;
+  padding: 1.5em;
+  border-radius: 0em 0em 1em 1em;
+  font-family: var(--ff-primary);
+}
+
+button:hover {
+  background-color: rgb(10, 53, 182);
+}
